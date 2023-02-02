@@ -1,5 +1,9 @@
 import "./index.css"
 
-export const ListCard = () => {
-    return <div className="list-card-container"></div>
+export const ListCard = (props) => {
+    return (
+        <div className="list-card-container">
+            <span>{props.item.name}</span>
+        </div>
+    )
 }
