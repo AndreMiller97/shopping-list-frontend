@@ -1,9 +1,20 @@
-import "./index.css"
+import "./index.css";
 
 export const ListCard = (props) => {
-    return (
-        <div className="list-card-container">
-            <span>{props.item.name}</span>
-        </div>
-    )
-}
+  const { item } = props;
+  
+  return (
+    <div className="list-card-container">
+      <img
+        className="checkbox"
+        src={`/images/${item?.checked ? "checked.svg" : "unchecked.svg"}`}
+        alt="checked"
+      />
+      <div className="list-card-text-container">
+        <span className="list-card-title">{item?.name}</span>
+        <span className="list-card-subtitle">{item?.quantity} Unidades </span>
+      </div>
+      <img src="/images/editar.png" alt="editar" className="icon" />
+    </div>
+  );
+};
