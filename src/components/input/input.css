@@ -10,6 +10,13 @@
     border-width: 2px;
     border-style: solid;
     background-color: white;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 420px){
+    .input-container{
+        max-width: 300px;
+    }
 }
 
 .input-label{

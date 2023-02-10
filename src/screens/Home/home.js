@@ -13,7 +13,7 @@ export const HomeScreen = () => {
     alert("O Nome deve conter mais do que 3 caracteres")
     return
    }
-    localStorage.setItem("@supermarket-list:username", username)
+    localStorage.setItem(SAVE_USERNAME_PATH, username)
     navigate('/list')
   };
 

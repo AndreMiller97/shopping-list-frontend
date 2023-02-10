@@ -1,11 +1,35 @@
 .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 42px;
-    background-color: #7785db;
     font-size: 14px;
-    color: #f1f1f1;
     font-weight: bold;
     border-radius: 24px;
-    border: 0px;
+    border: 1px solid  #7785db ;
     cursor: pointer;
+}
+
+@media screen and (max-width: 420px){
+    .button-container{
+        max-width: 300px;
+    }
+}
+
+.main{
+    background-color: #7785db;
+    color: #f1f1f1;;
+}
+
+.outline{
+    background-color: #f2f4ff;
+    color: #7785db;
+}
+
+.button-icon{
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+    margin-right: 6px;
 }
