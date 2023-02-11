@@ -78,7 +78,7 @@ export const Modal = ({ onClose, item }) => {
           onChange={(text) => setName(text)}
           value={name}
           label="Nome"
-          placeholder="Digite o item a ser adicionado"
+          placeholder="Ex.: Arroz"
         />
         <Input
           onChange={(text) => setQuantity(text)}

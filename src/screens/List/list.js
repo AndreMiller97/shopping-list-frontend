@@ -60,8 +60,13 @@ export const ListScreen = () => {
             <h1 className="list-screen-header-title">Lista Supermercado</h1>
           </div>
           <div className="list-screen-header-button-container">
-            <Button onClick={onClickAddButton}>
-              {window.innerWidth <= 420 ? "+" : "Adicionar"}
+            <Button variante= "transparent"onClick={onClickAddButton}>
+              {window.innerWidth <= 420 ? (
+                <img className="logo-add-response" src="/images/add.png" alt="Adicionar" />
+              ) : (
+                /* cd adicional*/
+                <img className="logo-add" src="/images/carrinho.png" alt="Adicionar" />
+              )}
             </Button>
           </div>
         </div>

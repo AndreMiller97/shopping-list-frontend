@@ -1,11 +1,13 @@
 import "./button.css";
 
-export const Button = ({ children, onClick, variant, icon }) => {
+export const Button = ({ children, onClick, variant,variante, icon }) => {
   return (
     <button
       onClick={onClick}
       className={`button-container ${
-        variant === "outline" ? "outline" : "main"
+        variant === "outline" ? "outline" : "main" &&
+        /*codigo adicional*/
+        variante === "transparent" ? "transparent" :"main"
       }`}
     >
       {icon && (

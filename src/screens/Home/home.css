@@ -2,7 +2,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #7785db;
+    background-color: #546A7B;
     align-items: center;
     justify-content: center;
 }
@@ -16,6 +16,7 @@
     height: 720px;
     background-color: #f1f1f1;
     border-radius: 24px;
+    border: 3px solid;
 }
 
 .shopping-bag-image {

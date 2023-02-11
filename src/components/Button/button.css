@@ -11,20 +11,21 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 420px){
-    .button-container{
-        max-width: 300px;
-    }
+
+.transparent{
+    background-color: transparent;
+    border: none;
 }
 
 .main{
     background-color: #7785db;
-    color: #f1f1f1;;
+    color: #f1f1f1;
 }
 
 .outline{
     background-color: #f2f4ff;
     color: #7785db;
+    
 }
 
 .button-icon{
@@ -32,4 +33,26 @@
     width: 24px;
     object-fit: contain;
     margin-right: 6px;
+}
+
+@media screen and (max-width: 830px){
+    .transparent{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    
+    .button-container{
+        max-width: 300px;
+    }
+    .main{
+       margin-top: 5px;
+    }
+    .outline{
+        margin-bottom: 5px;
+    }
 }
