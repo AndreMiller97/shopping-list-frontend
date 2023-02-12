@@ -3,7 +3,7 @@
 This is an application made using React.js with the goal of creating a Shopping list using the 4 basic requests in the API (GET, POST, PUT, DELETE).
 
 <p>
-    <img heigth="500" src=""/>
+    <img heigth="500" src="https://github.com/AndreMiller97/supermarkt-list-frontend/blob/master/public/images/preview.gif"/>
 </p>
 
 ## Technologies Used
