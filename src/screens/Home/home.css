@@ -22,6 +22,8 @@
 .shopping-bag-image {
     width: 220px;
     height: auto;
+    border-radius: 110px;
+    border: 5px solid #6084B4
 }
 
 .home-screen-title {

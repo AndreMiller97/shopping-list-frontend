@@ -1,6 +1,6 @@
-# Supermarket List App
+# Shopping List App
 
-This is an application made using React.js with the goal of creating a supermarket list using the 4 basic requests in the API (GET, POST, PUT, DELETE).
+This is an application made using React.js with the goal of creating a Shopping list using the 4 basic requests in the API (GET, POST, PUT, DELETE).
 
 <p>
     <img heigth="500" src=""/>
@@ -24,7 +24,8 @@ This is an application made using React.js with the goal of creating a supermark
 git clone
 ```
 
-2. Install the dependencies: 
+2. Install the dependencies:
+
 ```
 cd supermarket-list-frontend && npm install
 ```
@@ -34,6 +35,7 @@ cd supermarket-list-frontend && npm install
 ```
 npm start
 ```
+
 4. (Optional) if you want build a production version:
 
 ```

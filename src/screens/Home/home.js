@@ -22,11 +22,11 @@ export const HomeScreen = () => {
       <div className="home-screen-content-container">
         <img
           className="shopping-bag-image"
-          src="/images/shopping-bag.svg"
+          src="/images/lista_logo.png"
           alt="shopping"
         />
         <h1 className="home-screen-title">
-          Sua lista de Supermercado mais facil do que nunca!
+          Sua lista de Compras mais facil do que nunca!
         </h1>
         <h3 className="home-screen-subtitle">
           Ajudamos você a organizar sua lista de compras de forma descomplicada.
