@@ -6,6 +6,10 @@ This is an application made using React.js with the goal of creating a Shopping 
     <img heigth="500" src="https://github.com/AndreMiller97/supermarkt-list-frontend/blob/master/public/images/preview.gif"/>
 </p>
 
+## Live App
+
+https://shopping-list-frontend-blush.vercel.app/
+
 ## Technologies Used
 
 - React.js
